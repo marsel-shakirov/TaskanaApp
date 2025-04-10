@@ -1,0 +1,30 @@
+.nav {
+	padding-inline: var(--padding-sm);
+	padding-block: var(--padding-md);
+	overflow: auto;
+}
+
+.navLink {
+	position: relative;
+	display: block;
+	min-width: 172px;
+	min-height: 40px;
+	padding-block: var(--padding-xxs);
+	padding-inline: var(--padding-lg);
+	font-weight: 600;
+	color: var(--color-white);
+	background-color: var(--color-grey-800);
+	border-radius: var(--border-radius-btn);
+	border-color: transparent;
+	cursor: pointer;
+}
+
+.navLink::before {
+	content: '';
+	background-image: url('/svg/inbox.svg');
+	position: absolute;
+	top: 13px;
+	left: 11px;
+	width: 18px;
+	height: 15px;
+}

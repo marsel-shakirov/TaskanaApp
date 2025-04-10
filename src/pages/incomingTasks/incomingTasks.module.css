@@ -1,0 +1,16 @@
+.incomingTasksWrap {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-inline: var(--padding-md);
+}
+
+.main {
+}
+
+.title {
+	padding-block: var(--padding-md);
+	font-size: var(--font-size-xlg);
+	font-weight: var(--font-weight-bold);
+	line-height: 1.25;
+}

@@ -1,0 +1,20 @@
+.sideBar {
+	display: flex;
+	flex-direction: column;
+	padding-inline: var(--padding-md);
+	padding-block: var(--padding-md);
+	row-gap: var(--gap-md);
+	overflow: auto;
+}
+
+.sideBarDesc {
+	margin-bottom: auto;
+	text-align: center;
+}
+
+.sideBarImg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: auto;
+}

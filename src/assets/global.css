@@ -1,0 +1,40 @@
+@import url(./fonts/fonts.css);
+@import url(./variables.css);
+@import url(./normalize.css);
+
+:root {
+	font-size: var(--font-size-base);
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	font-family: var(--font-family);
+	font-weight: var(--font-weight-regular);
+	font-size: var(--font-size-sm);
+	font-style: normal;
+	line-height: 1.5;
+	background-color: var(--color-grey-100);
+	color: var(--color-grey-800);
+	height: 100vh;
+}
+
+.container {
+	min-width: 1280px;
+	padding-inline: var(--padding-sm);
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
