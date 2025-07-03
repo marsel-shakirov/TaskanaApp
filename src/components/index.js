@@ -11,3 +11,7 @@ export { Footer } from './footer/Footer';
 export { Logo } from './logo/Logo';
 
 export { Button } from './button/Button';
+
+export { Content } from './content/Content';
+
+export { MainContainer } from './mainContainer/MainContainer';

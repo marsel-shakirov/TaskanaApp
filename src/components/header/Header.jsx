@@ -8,7 +8,7 @@ import IconsLogo from '/svg/logo.svg';
 export const Header = () => {
 	return (
 		<header className={`container ${styles.header}`}>
-			<Logo width={124} height={40} IconsLogoSrc={IconsLogo} />
+			<Logo width={126} height={40} IconsLogoSrc={IconsLogo} />
 			<Button width={120} height={42} IconsButtonSrc={IconsButton} />
 		</header>
 	);

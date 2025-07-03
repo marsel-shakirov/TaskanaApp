@@ -1,4 +1,4 @@
-.sideBar {
+.statistic {
 	display: flex;
 	flex-direction: column;
 	padding-inline: var(--padding-md);
@@ -7,12 +7,12 @@
 	overflow: auto;
 }
 
-.sideBarDesc {
+.statisticDesc {
 	margin-bottom: auto;
 	text-align: center;
 }
 
-.sideBarImg {
+.statisticImg {
 	display: flex;
 	justify-content: center;
 	align-items: center;

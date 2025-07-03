@@ -1,5 +1,30 @@
 .logo {
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: end;
+	width: 126px;
+	height: 40px;
+	color: var(--color-white);
+	text-decoration: none;
+}
+
+.title {
+	position: relative;
+	font-size: var(--font-size-xlg);
+	z-index: 100;
+	font-weight: var(--font-weight-bold);
+}
+
+.title::before {
+	--size: 40px;
+	content: '';
+	position: absolute;
+	display: block;
+	height: var(--size);
+	width: var(--size);
+	top: 5px;
+	left: -13px;
+	background-color: var(--color-dark-red);
+	border-radius: 10px;
+	z-index: -1;
 }
