@@ -2,7 +2,7 @@
 	--font-family: 'Source Sans 3';
 
 	--font-weight-regular: 400;
-	--font-weight-medium: 500;
+	--font-weight-medium: 600;
 	--font-weight-bold: 700;
 
 	--font-size-base: 62.5%;
@@ -41,6 +41,7 @@
 	--gap-lg: 40px;
 	--gap-md: 26px;
 	--gap-sm: 16px;
+	--gap-xs: 12px;
 
 	--animate: 0.3s;
 }

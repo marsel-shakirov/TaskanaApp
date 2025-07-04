@@ -6,7 +6,7 @@
 
 .navLink {
 	position: relative;
-	display: block;
+	display: inline-block;
 	min-width: 172px;
 	min-height: 40px;
 	padding-block: var(--padding-xxs);
@@ -21,7 +21,7 @@
 
 .navLink::before {
 	content: '';
-	background-image: url('/svg/inbox.svg');
+	background-image: url('/svg/btn-inbox.svg');
 	position: absolute;
 	top: 13px;
 	left: 11px;

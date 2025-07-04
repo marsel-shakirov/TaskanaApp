@@ -1,8 +1,8 @@
 import styles from './logo.module.css';
 
-export const Logo = ({ width, height, IconsLogoSrc }) => {
+export const Logo = () => {
 	return (
-		<a className={styles.logo} href="/">
+		<a aria-label="На главную страницу" className={styles.logo} href="/">
 			<span className={styles.title}>taskana</span>
 		</a>
 	);

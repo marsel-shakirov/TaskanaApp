@@ -1,30 +1,30 @@
 .logo {
+	--size: 40px;
 	display: flex;
 	align-items: center;
 	justify-content: end;
 	width: 126px;
-	height: 40px;
+	height: var(--size);
 	color: var(--color-white);
 	text-decoration: none;
 }
 
 .title {
 	position: relative;
-	font-size: var(--font-size-xlg);
 	z-index: 100;
+	font-size: var(--font-size-xlg);
 	font-weight: var(--font-weight-bold);
 }
 
 .title::before {
-	--size: 40px;
 	content: '';
 	position: absolute;
+	top: 5px;
+	left: -13px;
+	z-index: -1;
 	display: block;
 	height: var(--size);
 	width: var(--size);
-	top: 5px;
-	left: -13px;
 	background-color: var(--color-dark-red);
 	border-radius: 10px;
-	z-index: -1;
 }

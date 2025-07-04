@@ -1,12 +1,10 @@
 import styles from './button.module.css';
 
-export const Button = ({ width, height, IconsButtonSrc }) => {
+export const Button = ({ children, title = 'Создать' }) => {
 	return (
 		<button className={styles.button}>
-			<svg width={width} height={height}>
-				<use xlinkHref={`${IconsButtonSrc}#icon-button`} />
-			</svg>
-			<p className="visually-hidden">Создать</p>
+			{children}
+			<span>{title}</span>
 		</button>
 	);
 };
