@@ -8,8 +8,13 @@
 	padding-inline: 13px;
 	font-weight: 600;
 	border-radius: var(--border-radius-btn);
-	background-color: var(--color-bright-red);
-	color: var(--color-white);
+	background-color: var(--color-primary-400);
+	color: var(--color-neutral-0);
 	border-color: transparent;
 	cursor: pointer;
+}
+
+.buttonWrap {
+	width: 18px;
+	height: 18px;
 }

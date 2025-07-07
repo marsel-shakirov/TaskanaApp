@@ -1,13 +1,15 @@
-import styles from './header.module.css';
+import PlusIcon from '@/assets/images/svg/btn-plus.svg';
 
-import { Button, Icon, Logo } from '@/components';
+import { Button, Logo } from '@/components';
+
+import styles from './header.module.css';
 
 export const Header = () => {
 	return (
 		<header className={`container ${styles.header}`}>
 			<Logo />
 			<Button>
-				<Icon />
+				<PlusIcon fill="#fff" />
 			</Button>
 		</header>
 	);

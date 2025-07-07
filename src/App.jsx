@@ -1,4 +1,4 @@
-import { AppLayout } from '@/layouts/appLayout/AppLayout';
+import { AppLayout } from '@/layouts';
 
 function App() {
 	return <AppLayout />;

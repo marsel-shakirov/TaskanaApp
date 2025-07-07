@@ -15,5 +15,3 @@ export { Button } from './button/Button';
 export { Content } from './content/Content';
 
 export { MainContainer } from './mainContainer/MainContainer';
-
-export { Icon } from './icon/Icon';

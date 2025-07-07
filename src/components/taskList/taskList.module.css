@@ -17,7 +17,7 @@
 
 .taskListTitle {
 	font-size: var(--font-size-lg);
-	font-weight: var(--font-weight-bold);
+	font-weight: 700;
 	line-height: 1.33;
 }
 
