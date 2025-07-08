@@ -11,7 +11,7 @@
 
 .title {
 	position: relative;
-	z-index: 100;
+	z-index: var(--z-index-title);
 	font-size: var(--font-size-xlg);
 	font-weight: 700;
 }
@@ -21,7 +21,7 @@
 	position: absolute;
 	top: 5px;
 	left: -13px;
-	z-index: -1;
+	z-index: var(--z-index-titleBefore);
 	display: block;
 	height: var(--size);
 	width: var(--size);

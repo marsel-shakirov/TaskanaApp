@@ -1,6 +1,6 @@
-import TaskIllustrationIcon from '@/assets/images/svg/task-illustration.svg';
+import TaskIllustrationIcon from '@/assets/images/svg/task-illustration.svg'
 
-import styles from './taskList.module.css';
+import styles from './taskList.module.css'
 
 export const TaskList = () => {
 	return (
@@ -17,5 +17,5 @@ export const TaskList = () => {
 				<TaskIllustrationIcon width="463" height="319" />
 			</div>
 		</section>
-	);
-};
+	)
+}

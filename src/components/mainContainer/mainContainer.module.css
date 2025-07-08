@@ -1,3 +1,8 @@
+.main {
+	max-width: 996px;
+	margin-inline: auto;
+}
+
 .title {
 	padding-block: var(--padding-md);
 	font-size: var(--font-size-xlg);

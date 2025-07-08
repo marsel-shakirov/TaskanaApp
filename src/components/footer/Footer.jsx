@@ -1,10 +1,10 @@
-import styles from './footer.module.css';
+import styles from './footer.module.css'
 
 export const Footer = () => {
 	return (
 		<footer className={styles.footer}>
 			<p className={styles.preax}>
-				Проект выполнен в рамках стажировки&ensp;
+				Проект выполнен в рамках стажировки&nbsp;
 				<a
 					href="https://preax.ru"
 					target="_blank"
@@ -16,5 +16,5 @@ export const Footer = () => {
 				</a>
 			</p>
 		</footer>
-	);
-};
+	)
+}

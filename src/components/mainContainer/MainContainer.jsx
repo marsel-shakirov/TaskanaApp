@@ -1,6 +1,6 @@
-import { TaskList } from '@/components';
+import { TaskList } from '@/components'
 
-import styles from './MainContainer.module.css';
+import styles from './MainContainer.module.css'
 
 export const MainContainer = () => {
 	return (
@@ -8,5 +8,5 @@ export const MainContainer = () => {
 			<h1 className={styles.title}>Входящие</h1>
 			<TaskList />
 		</main>
-	);
-};
+	)
+}

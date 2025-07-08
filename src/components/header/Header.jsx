@@ -1,8 +1,8 @@
-import PlusIcon from '@/assets/images/svg/btn-plus.svg';
+import { Button, Logo } from '@/components'
 
-import { Button, Logo } from '@/components';
+import PlusIcon from '@/assets/images/svg/btn-plus.svg'
 
-import styles from './header.module.css';
+import styles from './header.module.css'
 
 export const Header = () => {
 	return (
@@ -12,5 +12,5 @@ export const Header = () => {
 				<PlusIcon fill="#fff" />
 			</Button>
 		</header>
-	);
-};
+	)
+}

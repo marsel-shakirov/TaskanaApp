@@ -1,7 +1,7 @@
-import { AppLayout } from '@/layouts';
+import { AppLayout } from '@/layouts'
 
 function App() {
-	return <AppLayout />;
+	return <AppLayout />
 }
 
-export default App;
+export default App

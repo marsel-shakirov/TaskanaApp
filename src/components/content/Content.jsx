@@ -1,7 +1,8 @@
-import { NavBar, SideBar } from '@/components';
-import { IncomingTasks } from '@/pages';
+import { IncomingTasks } from '@/pages'
 
-import styles from './content.module.css';
+import { NavBar, SideBar } from '@/components'
+
+import styles from './content.module.css'
 
 export const Content = () => {
 	return (
@@ -10,5 +11,5 @@ export const Content = () => {
 			<IncomingTasks />
 			<SideBar />
 		</div>
-	);
-};
+	)
+}

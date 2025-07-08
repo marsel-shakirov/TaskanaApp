@@ -1,4 +1,4 @@
-import { Content, Header } from '@/components';
+import { Content, Header } from '@/components'
 
 export const AppLayout = () => {
 	return (
@@ -6,5 +6,5 @@ export const AppLayout = () => {
 			<Header />
 			<Content />
 		</>
-	);
-};
+	)
+}

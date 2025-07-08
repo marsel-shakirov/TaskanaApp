@@ -1,4 +1,4 @@
-import styles from './button.module.css';
+import styles from './button.module.css'
 
 export const Button = ({ children, title = 'Создать' }) => {
 	return (
@@ -6,5 +6,5 @@ export const Button = ({ children, title = 'Создать' }) => {
 			{children}
 			<span>{title}</span>
 		</button>
-	);
-};
+	)
+}

@@ -1,6 +1,6 @@
-import { Footer, MainContainer } from '@/components';
+import { Footer, MainContainer } from '@/components'
 
-import styles from './incomingTasks.module.css';
+import styles from './incomingTasks.module.css'
 
 export const IncomingTasks = () => {
 	return (
@@ -8,5 +8,5 @@ export const IncomingTasks = () => {
 			<MainContainer />
 			<Footer />
 		</div>
-	);
-};
+	)
+}

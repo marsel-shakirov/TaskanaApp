@@ -1,6 +1,8 @@
 .nav {
 	padding-inline: var(--padding-sm);
 	padding-block: var(--padding-md);
+	border-right: 1px solid var(--color-neutral-300);
+	background-color: var(--color-neutral-100);
 	overflow: auto;
 }
 

@@ -1,6 +1,6 @@
-import InboxIcon from '@/assets/images/svg/btn-inbox.svg';
+import InboxIcon from '@/assets/images/svg/btn-inbox.svg'
 
-import styles from './navBar.module.css';
+import styles from './navBar.module.css'
 
 export const NavBar = () => {
 	return (
@@ -14,5 +14,5 @@ export const NavBar = () => {
 				</li>
 			</ul>
 		</nav>
-	);
-};
+	)
+}
