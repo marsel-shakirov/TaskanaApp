@@ -1,11 +1,11 @@
 .main {
-	max-width: 996px;
 	margin-inline: auto;
+	max-width: 996px;
 }
 
 .title {
 	padding-block: var(--padding-md);
-	font-size: var(--font-size-xlg);
 	font-weight: 700;
+	font-size: var(--font-size-xlg);
 	line-height: 1.25;
 }

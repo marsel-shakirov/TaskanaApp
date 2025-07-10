@@ -1,8 +1,8 @@
 .logo {
 	--size: 40px;
 	display: flex;
-	align-items: center;
 	justify-content: end;
+	align-items: center;
 	width: 126px;
 	height: var(--size);
 	color: var(--color-neutral-0);
@@ -12,19 +12,19 @@
 .title {
 	position: relative;
 	z-index: var(--z-index-title);
-	font-size: var(--font-size-xlg);
 	font-weight: 700;
+	font-size: var(--font-size-xlg);
 }
 
 .title::before {
-	content: '';
+	display: block;
 	position: absolute;
 	top: 5px;
 	left: -13px;
 	z-index: var(--z-index-titleBefore);
-	display: block;
-	height: var(--size);
-	width: var(--size);
-	background-color: var(--color-primary-500);
 	border-radius: 10px;
+	background-color: var(--color-primary-500);
+	width: var(--size);
+	height: var(--size);
+	content: '';
 }

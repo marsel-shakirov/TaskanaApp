@@ -1,23 +1,23 @@
 .taskList {
 	display: flex;
-	flex-direction: column;
 	row-gap: var(--gap-lg);
+	flex-direction: column;
 	height: calc(100vh - 210px);
 	overflow: auto;
 }
 
 .taskListWrap {
 	display: flex;
+	row-gap: var(--gap-sm);
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	row-gap: var(--gap-sm);
 	margin-top: auto;
 }
 
 .taskListTitle {
-	font-size: var(--font-size-lg);
 	font-weight: 700;
+	font-size: var(--font-size-lg);
 	line-height: 1.33;
 }
 

@@ -1,10 +1,10 @@
 .header {
-	position: sticky;
 	display: flex;
+	position: sticky;
 	justify-content: space-between;
 	align-items: center;
-	padding-block: var(--padding-xs);
-	background-color: var(--color-base-black);
-	inset: 0;
 	z-index: var(--z-index-header);
+	inset: 0;
+	background-color: var(--color-base-black);
+	padding-block: var(--padding-xs);
 }
