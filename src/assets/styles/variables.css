@@ -29,7 +29,7 @@
 	--padding-lg: 40px;
 	--padding-md: 24px;
 	--padding-sm: 16px;
-	--padding-xs: 11px;
+	--padding-xs: 12px;
 	--padding-xxs: 8px;
 
 	--border-radius-btn: 8px;
@@ -37,11 +37,13 @@
 	--gap-lg: 40px;
 	--gap-md: 26px;
 	--gap-sm: 16px;
-	--gap-xs: 12px;
+	--gap-xs: 8px;
 
 	--z-index-title: 100;
 	--z-index-titleBefore: -1;
 	--z-index-header: 1000;
+
+	--box-shadow-base: 2px 2px 4px rgba(0, 0, 0, 0.2);
 
 	--animate: 0.3s;
 }

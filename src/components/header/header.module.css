@@ -5,6 +5,9 @@
 	align-items: center;
 	z-index: var(--z-index-header);
 	inset: 0;
+	box-shadow: var(--box-shadow-base);
 	background-color: var(--color-base-black);
+	padding-right: var(--padding-md);
+	padding-left: var(--padding-sm);
 	padding-block: var(--padding-xs);
 }

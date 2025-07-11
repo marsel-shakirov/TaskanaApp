@@ -1,17 +1,19 @@
-export { Header } from './header/Header';
+export { Header } from './header/Header'
 
-export { NavBar } from './navBar/NavBar';
+export { NavBar } from './navBar/NavBar'
 
-export { SideBar } from './sideBar/SideBar';
+export { SideBar } from './sideBar/SideBar'
 
-export { TaskList } from './taskList/TaskList';
+export { TaskList } from './taskList/TaskList'
 
-export { Footer } from './footer/Footer';
+export { Footer } from './footer/Footer'
 
-export { Logo } from './logo/Logo';
+export { Logo } from './logo/Logo'
 
-export { Button } from './button/Button';
+export { Button } from './button/Button'
 
-export { Content } from './content/Content';
+export { Content } from './content/Content'
 
-export { MainContainer } from './mainContainer/MainContainer';
+export { MainContainer } from './mainContainer/MainContainer'
+
+export { IconRenderer } from './icon/IconRenderer'

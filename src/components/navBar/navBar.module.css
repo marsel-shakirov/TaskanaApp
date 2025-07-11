@@ -13,16 +13,15 @@
 .navLink {
 	display: inline-flex;
 	position: relative;
-	column-gap: 8px;
-	justify-content: center;
+	column-gap: var(--gap-xs);
 	align-items: center;
 	cursor: pointer;
+	box-shadow: var(--box-shadow-base);
 	border-color: transparent;
 	border-radius: var(--border-radius-btn);
 	background-color: var(--color-neutral-800);
-	padding: 8px;
+	padding: var(--padding-xxs);
 	min-width: 172px;
-	min-height: 40px;
 	color: var(--color-neutral-0);
 	font-weight: 600;
 	text-decoration: none;

@@ -4,12 +4,13 @@
 	justify-content: center;
 	align-items: center;
 	cursor: pointer;
-	border-color: transparent;
+	box-shadow: var(--box-shadow-base);
+	border: none;
 	border-radius: var(--border-radius-btn);
 	background-color: var(--color-primary-400);
-	padding-inline: 13px;
-	padding-block: 8px;
-	height: 40px;
+	padding-right: var(--padding-sm);
+	padding-left: var(--padding-xs);
+	padding-block: var(--padding-xxs);
 	color: var(--color-neutral-0);
 	font-weight: 600;
 }

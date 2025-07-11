@@ -1,8 +1,6 @@
 .footer {
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	padding-block: var(--padding-sm);
+	text-align: center;
 }
 
 .preax {

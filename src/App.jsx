@@ -1,7 +1,5 @@
 import { AppLayout } from '@/layouts'
 
-function App() {
+export const App = () => {
 	return <AppLayout />
 }
-
-export default App

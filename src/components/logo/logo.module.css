@@ -9,21 +9,24 @@
 	text-decoration: none;
 }
 
-.title {
+.logoTitle {
 	position: relative;
 	z-index: var(--z-index-title);
 	font-weight: 700;
 	font-size: var(--font-size-xlg);
 }
 
-.title::before {
+.logoTitle::before {
 	display: block;
 	position: absolute;
 	top: 5px;
 	left: -13px;
 	z-index: var(--z-index-titleBefore);
 	border-radius: 10px;
-	background-color: var(--color-primary-500);
+	background: linear-gradient(
+		var(--color-primary-400),
+		var(--color-primary-500)
+	);
 	width: var(--size);
 	height: var(--size);
 	content: '';

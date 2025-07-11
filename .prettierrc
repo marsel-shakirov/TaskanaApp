@@ -19,6 +19,7 @@
 		"^@/layouts",
 		"^@/components",
 		"^@/assets",
+		".svg$",
 		".css$"
 	],
 	"importOrderSeparation": true,

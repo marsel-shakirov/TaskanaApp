@@ -11,6 +11,5 @@ nickname - marsel-shakirov
 
 # Плагины
 
-1. @trivago/prettier-plugin-sort-imports - плагин для сортировки импортов в удобном порядке [trivago/prettier][https://www.npmjs.com/package/@trivago/prettier-plugin-sort-imports]
-2. npm i prettier-plugin-css-order - плагин для сортировки css (по concentric-css) [CSS Order Prettier Plugin][https://www.npmjs.com/package/prettier-plugin-css-order]
-3. svgr - плагин работы с svg для vite [svgr][https://www.npmjs.com/package/vite-plugin-svgr]
+1. @trivago/prettier-plugin-sort-imports - плагин для сортировки импортов в удобном порядке [trivago/prettier](https://www.npmjs.com/package/@trivago/prettier-plugin-sort-imports)
+2. npm i prettier-plugin-css-order - плагин для сортировки css (по concentric-css) [CSS Order Prettier Plugin](https://www.npmjs.com/package/prettier-plugin-css-order)

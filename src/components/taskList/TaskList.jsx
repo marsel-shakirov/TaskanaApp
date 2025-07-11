@@ -1,4 +1,4 @@
-import TaskIllustrationIcon from '@/assets/images/svg/task-illustration.svg'
+import TaskIllustrationImage from '@/assets/images/svg/task-illustration.svg'
 
 import styles from './taskList.module.css'
 
@@ -14,7 +14,7 @@ export const TaskList = () => {
 				</p>
 			</div>
 			<div className={styles.taskListImg}>
-				<TaskIllustrationIcon width="463" height="319" />
+				<img src={TaskIllustrationImage} width="463" height="319" alt="" />
 			</div>
 		</section>
 	)

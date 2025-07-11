@@ -1,4 +1,4 @@
-import NoteBookIcon from '@/assets/images/svg/notebook.svg'
+import NoteBookImage from '@/assets/images/svg/notebook.svg'
 
 import styles from './Statistic.module.css'
 
@@ -6,11 +6,11 @@ export const Statistic = () => {
 	return (
 		<>
 			<div className={styles.statisticImg}>
-				<NoteBookIcon width="231" height="168" />
+				<img src={NoteBookImage} width="231" height="168" alt="" />
 			</div>
 			<p className={styles.statisticDesc}>
 				Здесь мы поможем тебе управлять твоими задачами, отслеживать статистику
-				и самочувствие.
+				и&nbsp;самочувствие.
 			</p>
 		</>
 	)
