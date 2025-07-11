@@ -16,4 +16,4 @@ export { Content } from './content/Content'
 
 export { MainContainer } from './mainContainer/MainContainer'
 
-export { IconRenderer } from './icon/IconRenderer'
+export { Icon } from './icon/Icon'
