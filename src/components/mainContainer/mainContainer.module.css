@@ -1,5 +1,12 @@
+.main {
+	overflow-y: scroll;
+}
+
 .mainTitle {
+	position: sticky;
 	margin-inline: auto;
+	inset: 0;
+	background-color: var(--color-neutral-0);
 	padding: var(--padding-md);
 	max-width: 996px;
 	font-weight: 700;

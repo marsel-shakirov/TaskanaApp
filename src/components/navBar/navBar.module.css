@@ -3,7 +3,7 @@
 	background-color: var(--color-neutral-100);
 	padding-inline: var(--padding-sm);
 	padding-block: var(--padding-md);
-	overflow: auto;
+	overflow-y: scroll;
 }
 
 .navList {

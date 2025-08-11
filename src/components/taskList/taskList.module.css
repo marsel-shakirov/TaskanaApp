@@ -6,7 +6,6 @@
 	padding-inline: var(--padding-md);
 	padding-bottom: var(--padding-md);
 	height: calc(100vh - 210px);
-	overflow: auto;
 }
 
 .taskListWrap {
